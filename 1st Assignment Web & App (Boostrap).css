@@ -1,0 +1,360 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+html,body{
+     width: 100%;
+     height: 100vh;
+     padding-right: 1%;
+     padding-left: 17%;
+}
+@font-face {
+     font-family: Playfair Display2;
+     src: url(static/PlayfairDisplay-Medium.ttf);
+}
+@font-face {
+     font-family: Playfair Display;
+     src: url(static/PlayfairDisplay-SemiBold.ttf);
+}
+.Me{
+     background-color: #F2F3F7;
+     margin-left: -27% !important;
+}
+.MyImage>img{
+     height: 28vh;
+     border-radius: 50%;
+}
+.Name{
+     font-family: 'Playfair Display';
+     font-size: 23px;
+     font-weight: 800;
+}
+.Expert{
+     text-transform: uppercase;
+     font-size: 12px;
+}
+.Expert>span{
+     color: #85C4F7;
+     cursor: pointer;
+}
+.My-img>ul>a>li{
+     font-size: 12px;
+     width: 26%;
+     margin: auto;
+}
+.My-img>ul>a>li:hover{
+     border-bottom: 1.7px solid #85C4F7;
+     border-radius: 1px;
+     transition: border-bottom 0.3s;
+}
+.My-img>ul>a>li:active{
+     color: #85C4F7;
+}
+.person-1{
+     background-image: url(1st\ Assignment\ Web\ &\ App\ \(Boostrap\)\ Image\ 2.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 98%;
+     padding-bottom: 19%;
+     animation: person-1;
+     animation-duration: 4s;
+     animation-delay: 0s;
+     animation-direction: alternate-reverse;
+     animation-timing-function: ease-in-out;
+     animation-fill-mode: both;
+     animation-iteration-count: infinite;
+}
+.person-1>h1{
+     font-size: 65px;
+     font-family: 'Playfair Display';
+     margin-top: 24%;
+}
+.person-1>p{
+     font-size: 18px;
+     font-weight: 50;
+}
+.person-1>button{
+     font-weight: 50;
+     border: 0.7px solid black;
+     border-radius: 2px;
+     font-size: 12px;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     background-color: white;
+}
+@keyframes person-1 {
+     To{
+          display: none;
+          visibility: hidden;
+     }
+}
+.About{
+     padding-left: 6%;
+}
+.About-Us{
+     letter-spacing: 5px;
+     color: gray;
+     text-transform: uppercase;
+     font-size: 11px;
+}
+.WAI{
+     letter-spacing: 3px;
+     text-transform: uppercase;
+     font-family: 'Playfair Display';
+     font-size: 18px;
+     font-weight: 900;
+     margin-bottom: 8%;
+}
+.My-Intro{
+     color: #4C4C4C;
+     font-weight: 330;
+     line-height: 180%;
+}
+.My-Intro>span{
+     font-weight: 600;
+     color: #4C4C4C;
+}
+.My-Intro2{
+     color: #4C4C4C;
+     font-weight: 330;
+}
+.Yellow>p{
+     font-family: 'Playfair Display2';
+     font-size: 30px;
+     font-size: 400;
+}
+.Bg-Attach{
+     background-image: url(1st\ Assignment\ Web\ &\ App\ \(Boostrap\)\ Image\ 12.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     object-fit: cover;
+     background-attachment: fixed;
+     margin-top: 50%;
+     margin-left: -10%;
+
+}
+.transparent{
+     padding: 6% 11%;
+     padding-bottom: 8vh;
+     background-color: rgba(0, 0, 0, 0.429);
+}
+.skills{
+     margin-top: 30% !important;
+}
+.skills>h6{
+     letter-spacing: 5px;
+     font-size: 11px;
+     font-family: Arial, Helvetica, sans-serif;
+}
+.skills>h5{
+     font-family: 'Playfair Display2';
+     letter-spacing: 5px;
+     font-weight: 800;
+}
+.Range-1{
+     width: 80%;
+     margin-top: -10%;
+}
+.Range-1::-webkit-slider-runnable-track{
+     border-radius: 30px;
+}
+.Range-2{
+     width: 80%;
+     margin-top: -10%;
+}
+.Range-2::-webkit-slider-runnable-track{
+     background: red;
+     border-radius: 30px;
+}
+.Range-3{
+     width: 80%;
+     margin-top: -10%;
+}
+.Range-3::-webkit-slider-runnable-track{
+     background: yellow;
+     border-radius: 30px;
+}
+.Range-4{
+     width: 80%;
+     margin-top: -10%;
+}
+.Range-4::-webkit-slider-runnable-track{
+     background: #A84CB8;
+     border-radius: 30px;
+}
+.Range-5{
+     width: 80%;
+     margin-top: 2%;
+}
+.Range-5::-webkit-slider-runnable-track{
+     background: #2FA499;
+     border-radius: 30px;
+}
+.Range-6{
+     width: 80%;
+     height: 1px;
+}
+.Range-6::-webkit-slider-runnable-track{
+     background: #4054B2;
+     border-radius: 30px;
+}
+.education{
+     margin-top: 25%;
+}
+.education>h6{
+     font-size: 11px;
+     letter-spacing:8px;
+}
+.education>h5{
+     font-family: 'Playfair Display2';
+     font-weight: 700;
+     letter-spacing: 6px;
+     font-size: 18px;
+}
+.EI{
+     letter-spacing: 2px;
+     color: rgb(133, 119, 119);
+     cursor: pointer;
+}
+.Plus{
+     float: right;
+     cursor: pointer;
+}
+.experience{
+     margin-top: 25%;
+}
+.experience>h6{
+     font-size: 11px;
+     letter-spacing:8px;
+}
+.experience>h5{
+     font-family: 'Playfair Display2';
+     font-weight: 700;
+     letter-spacing: 6px;
+     font-size: 18px;
+}
+.P-1{
+     border: 4px solid gainsboro;
+     border-radius: 30px;
+     text-align: center;
+     background-color: #2C98F0;
+}
+.work{
+     margin-top: 20%;
+}
+.work>h6{
+     font-size: 11px;
+     letter-spacing:8px;
+}
+.work>h5{
+     font-family: 'Playfair Display2';
+     font-weight: 700;
+     letter-spacing: 6px;
+     font-size: 18px;
+}
+.MW{
+     display: flex;
+     list-style: none;
+     margin-left: -7%;
+     margin-top: 6%;
+}
+.MW>a{
+     text-decoration: none;
+}
+.MW>a{
+     margin-left: 3%;
+}
+.MW>a>li{
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 50;
+}
+.container-fade {
+     position: relative;
+     width: 50%;
+}
+
+.image {
+     display: block;
+     width: 100%;
+     height: auto;
+}
+
+.overlay {
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     height: 100%;
+     width: 100%;
+     opacity: 0;
+     transition: .5s ease;
+     background-color: #2C98F0;
+     padding: 4%;
+}
+
+.container-fade:hover .overlay {
+     opacity: 1;
+}
+
+.text {
+     color: white;
+     font-size: 20px;
+     position: absolute;
+}
+.Load{
+     background-color: #2C98F0;
+     border-radius: 3px;
+     color: white;
+     width: 100%;
+     margin-top: 6%;
+     padding: 2% 0 0 2%;
+     border: none;
+     vertical-align: middle;
+     padding-bottom: 2%;
+}
+.Load:hover{
+     background-color: #4baaf7;
+}
+.blog{
+     margin-top: 15%;
+}
+.blog>h6{
+     font-size: 11px;
+     letter-spacing:8px;
+}
+.blog>h5{
+     font-family: 'Playfair Display2';
+     font-weight: 700;
+     letter-spacing: 6px;
+     font-size: 18px;
+}
+.contact{
+     margin-top: 20%;
+     padding-bottom: 20%;
+
+}
+.contact>h6{
+     font-size: 11px;
+     letter-spacing:8px;
+}
+.contact>h5{
+     font-family: 'Playfair Display2';
+     font-weight: 700;
+     letter-spacing: 6px;
+     font-size: 18px;
+}
+form>input{
+     padding: 2%;
+     background-color: rgb(245, 240, 240);
+     width: 100%;
+     border: none;
+}
+form>textarea{
+     padding: 2%;
+     background-color: rgb(245, 240, 240);
+     width: 100%;
+     border: none;
+}
